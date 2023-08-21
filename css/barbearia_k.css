@@ -78,6 +78,7 @@ nav > a:hover{
 main{
     margin: auto;
     max-width: 900px;
+    min-width: 320px;
     text-align: center;
 
 
@@ -89,6 +90,10 @@ main h1{
     color: var(--cor5);
  
 
+}
+
+p{
+    line-height: 2em;
 }
 
 /*FIM MAIN PRINCIPAL*/
@@ -128,7 +133,8 @@ main h1{
 }
 
 .flex_apresentacao_fotos1:hover {
-    width: 300px;
+    transform: scale(1.2);
+    margin-top: 25px;
     transition: 1s;
 
 }
@@ -141,7 +147,7 @@ main h1{
 }
 
 .flex_apresentacao_fotos2:hover {
-    width: 300px;
+    transform: scale(1.2);
     transition: 1s;
 
 }
@@ -154,7 +160,7 @@ main h1{
 
 
 .flex_apresentacao_fotos3:hover {
-    width: 310px;
+    transform: scale(1.2);
     transition: 1s;
 }
 
@@ -168,7 +174,8 @@ main h1{
 }
 
 .flex_apresentacao_fotos4:hover {
-    width: 410px;
+    transform: scale(1.2);
+    margin: 25px;
     transition: 1s;
 }
 
@@ -181,7 +188,8 @@ main h1{
 
 
 .flex_apresentacao_fotos5:hover {
-    width: 410px;
+    transform: scale(1.2);
+    margin: 25px;
     transition: 1s;
 }
 
@@ -298,9 +306,12 @@ main h1{
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.233);
 }
 
+
+
 .flex_card_barba h1 {
     border-bottom: 2px dashed var(--cor5);
 }
+
 
 
 .flex_botao_cards{
@@ -399,6 +410,7 @@ main ul img{
     flex-direction: row;
     justify-content: center;
     width: 100%;
+
     padding: 10px 0px;
 }
 
